@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard cripto</title>
+    <link rel="stylesheet" href="{{ url_for ('static', filename= 'styles.css') }}">
+</head>
+<body>
+    <div class="section">
+        <div class="text">
+            <h1 class="title"> 
+                Precio del <span class="bitcoin">Bitcoin</span>
+            </h1>
+            <h2 class="subtitle">
+                ¡Bienvenido a nuestro  <span class="asd">Dashboard de seguimiento! </span> 
+            </h2>
+        </div>
+        <div class="price">
+                <p class="USD"><span class="simbolito">$ </span>{{ price }}</p>
+                <p class="JPY"><span class="simbolito">¥ </span>{{ price1 }}</p>
+                <p class="EUR"><span class="simbolito">€</span> {{ price2 }}</p>
+        </div>
+    </div>
+</body>
+</html>
