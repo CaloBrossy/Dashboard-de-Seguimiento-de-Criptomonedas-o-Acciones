@@ -1,0 +1,5 @@
+Technologies:
+
+Python
+HTML
+CSS
